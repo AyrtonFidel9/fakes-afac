@@ -1,0 +1,166 @@
+.header{
+    height: 6rem;
+    background-color: #0095DB;
+    display: grid;
+    width: 100%;
+    align-content: center;
+    justify-items: center;
+}
+
+.header__img {
+    width: 9rem;
+}
+
+.header__img svg{
+    fill: white;
+    width: 100%;
+}
+
+.footer {
+    background-color: #333333;
+    padding-top: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-top {
+    margin-bottom: 6rem;
+}
+
+.logo-footer {
+    fill: white;
+    width: 8rem;
+    margin: 3rem;
+}
+
+.logo-footer ~ div {
+    padding-right: 3rem;
+}
+
+.item-card[data-v-c6629e30]{border-radius:1.25rem}.item-card .card-body[data-v-c6629e30]{padding:1rem .5rem}.cart__icon[data-v-c6629e30]{width:80%}.category[data-v-c6629e30]{font-size:.9rem;font-weight:400;color:var(--secondary);line-height:1.1}.name[data-v-c6629e30]{line-height:1.1}.name[data-v-c6629e30],.price[data-v-c6629e30]{color:var(--dark);font-weight:600;font-size:1.2rem}.tax[data-v-c6629e30]{font-size:.75rem;color:var(--secondary);line-height:1;font-weight:400}.remove[data-v-c6629e30]{background-color:var(--skeleton);display:flex;width:2.25rem;height:2.25rem;border-radius:50%;align-items:center;justify-content:center}
+
+
+.fill-facebook {
+    fill: #438ED0;
+}
+
+.fill-instagram {
+    fill: #F7C744
+}
+
+.fill-youtube {
+    fill: #E9642B;
+}
+
+.fill-twitter{
+    fill: #69C4CD;
+    
+}
+
+.fill-linkedin {
+    fill: #902082;
+}
+
+.icons a {
+    width: 4rem;
+}
+
+.icons a svg{
+    width: 100%;
+    align-items: center;
+}
+
+.footer-info{
+    line-height: 1.9rem;
+}
+
+.footer-links{
+
+    padding-top: 2rem;
+    
+}
+
+.svg-content {
+    width: 6rem;
+    fill: white;
+    margin-bottom: 1rem;
+}
+.cls-1 {
+    opacity: .5;
+}
+.cls-2{
+fill: #69c4cd;
+}
+.cls-3{
+    fill: #f7c744;
+
+}
+.cls-4{
+    fill: #e9642b;
+
+}
+.cls-5{
+    fill: #902082;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.links > div {
+    margin-bottom: 0.7rem;
+}
+
+.links > div > a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.formulario {
+    display: grid;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 70%;
+}
+
+
+.formulario input {
+    border-radius: 0.5rem;
+    border-color: rgb(156, 156, 156);
+    border-style: solid;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    border-width: 0.1rem;
+}
+
+.formulario button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 40%;
+    place-self: center;
+    margin-top: 1rem;
+    border-style: none;
+}
+
+.formulario button:hover {
+    cursor: pointer;
+}
+
+@media screen and ( max-width:450px) {
+    .formulario {
+        width: 100%;
+    }
+
+    .formulario button {
+        width: 100%;
+    }
+}
